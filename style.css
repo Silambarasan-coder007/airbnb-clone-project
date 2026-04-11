@@ -1,0 +1,200 @@
+.logo{
+    position: relative;
+}
+.left{
+    position: absolute;
+    top: 75px;
+    left: 1155px; 
+}
+.hotel{
+    position: relative;
+    left: 350px;
+    border-radius: 30px;
+}
+.container{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    left: 50px;
+    top: 270px;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 2px 2px 2px;
+}
+input{
+    height: 55px;
+    width: 400px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.two{
+    display: flex;
+    height: 40px;
+    width: 415px; 
+}
+.txt1{
+    position: absolute;
+    top: 135px;
+    left: 30px;
+}
+.txt2{
+    position: absolute;
+    top: 218px;
+    left: 32px;
+}
+.txt3{
+    position:absolute;
+    left: 239px;
+    top: 218px;
+}
+
+button{
+    height: 40px;
+    width: 415px;
+    background-color: rgb(253, 2, 43);
+    color: white;
+    border-radius: 10px;
+}
+.btn{
+    border-radius: 50%;
+    width: 40px;
+    color: black;
+    background-color: white;
+}
+.com{
+    border-radius: 20px;
+    position: relative;
+}
+.sel{
+    position: relative;
+}
+.sem{
+    position: absolute;
+    top: 1268px;
+    left: 265px;
+}
+.sem1{
+    position: absolute;
+    left: 595px;
+    top: 1268px;
+}
+.sem2{
+    position: absolute;
+    top: 1268px;
+    left: 926px;
+}
+.sem3{
+    position: absolute;
+    top: 1268px;
+    left: 1255px;
+}
+.cem{
+    position: absolute;
+    left: 275px;
+    top: 2175px;
+}
+.cem1{
+    position: absolute;
+    left: 595px;
+    top: 2175px;
+}
+.cem2{
+    position: absolute;
+    left: 910px;
+    top: 2175px;
+}
+.cem3{
+    position: absolute;
+    left: 1265px;
+    top: 2175px;
+}
+.cem4{
+    position: absolute;
+    left: 265px;
+    top: 2615px;
+}
+
+.cem5{
+    position: absolute;
+    left: 605px;
+    top: 2615px;
+}
+.cem6{
+    position: absolute;
+    left: 935px;
+    top: 2615px;
+}
+.cem7{
+    position: absolute;
+    left: 1265px;
+    top: 2615px;
+}
+.con{
+    position: absolute;
+    top: 960px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 4px;
+    margin-left: 10px;
+}
+.container2,.container3,.container4{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0.5px 5px ;
+    height: 110px;
+    width: 500px;
+    text-align: center;
+    padding-top: 10px;
+}
+.card2{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0.5px 5px;
+    height: 110px;
+    width: 700px;
+    text-align: center;
+    padding-top: 10px;
+}
+.container5,.container6{
+    display: flex;
+    gap: 10px;
+}
+.col{
+    display: flex;
+    gap: 200px;
+}
+.col1{
+   display: flex;
+    gap: 154px; 
+}
+.col2{
+    display: flex;
+    gap: 220px; 
+}
+.col h4,.col1 h4,.col2 h4{
+    color: rgb(122, 120, 120);
+}
+footer a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.sh{
+    position: absolute;
+    right: 260px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.foot{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
