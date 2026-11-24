@@ -1,170 +1,26 @@
-nav{
-    display: flex;
-    gap: 15px;
-    justify-content: center;
-    
-}
-.menu{
-    display: flex;
-    box-shadow: 0 0.5px 2px 2px wheat;
-   
-    justify-content: center;
-    gap: 30px;
-    padding-left: 20px;
-    padding: 10px;
-    border-radius: 40px;
-    width: 500px;
-}
-.fil{
-   padding-top: 18px;
-   margin-top: -8px; 
-    
-}
-.house{
-   margin-top: 3px;
-   margin-left: 3px;
-}
-h3{
-    color: rgb(90, 86, 86);
-}
-
-.fil button{
-    width: 150px;
-    border-radius: 40px;
-    height: 70px;
-    font-size: 20px;
-    background-color: white;
-    border: 1px solid rgb(192, 190, 190);
-   
-}
-a{
-    text-decoration: none;
-    margin-top: 15px;
-    font-size: 17px;
-    color: black;
-    }
-button{
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-
-}
-.item{
-    align-items: center;
-    margin-top: 10px;
-}
-.web{
-    display: flex;
-    gap: 20px;
-    justify-content: end;
-    width: 500px;
-    align-items: center;
-}
-.web button{
-    background-color: rgb(248, 243, 235);
-    border: 1px solid rgb(248, 243, 235);
-}
-.con1,.con2,.con3,.con4{
-    display: flex;
-    gap: 5px;
-}
-.left{
-    margin-left: 20px;
-}
-.card1{
-    line-height: 15px;
-}
-.card1 img{
-    border-radius: 20px;
-    position: relative;
-}
-.kat{
-    position: absolute;
-    left: 480px;
-    top: 115px;
-}
-.per{
-    position: absolute;
-    left: -260px;
-    top: -25px;
-    background-color: aliceblue;
-    box-shadow: 0 2px 4px 8px white;
-}
-.per:hover{
-    transform: scale(1.1);
-}
-.pink{
-    background-color: rgb(253, 63, 95);
-}
-.btn{
-    position: absolute;
-    left: 250px;
-    top: 180px;
-    color: rgb(253, 55, 88);
-    background-color: black;
-}
-.btn1{
-    position: absolute;
-    left: 620px;
-    top: 180px;
-    color: rgb(253, 55, 88);
-    background-color: black;
-}
-.btn2{
-    position: absolute;
-    left: 250px;
-    top: 650px;
-    color: rgb(253, 55, 88);
-    background-color: black;
-}
-.btn3{
-    position: absolute;
-    left: 620px;
-    top: 650px;
-    color: rgb(253, 55, 88);
-    background-color: black;
-}
-.btn4{
-    position: absolute;
-    left: 250px;
-    top: 1125px;
-    color: rgb(253, 55, 88);
-    background-color: black;
-}
-.btn5{
-    position: absolute;
-    left: 620px;
-    top: 1125px;
-    color: rgb(253, 55, 88);
-    background-color: black;
-}
-.btn6{
-    position: absolute;
-    left: 250px;
-    top: 1600px;
-    color: rgb(253, 55, 88);
-    background-color: black;
-}
-.btn7{
-    position: absolute;
-    left: 620px;
-    top: 1600px;
-    color: rgb(253, 55, 88);
-    background-color: black;
-}
-.btn:active,.btn1:active,.btn2:active,.btn3:active,.btn4:active,.btn5:active,.btn6:active,.btn7:active{
-    background-color: rgb(253, 55, 88);
-    color: black;
-}
-.right{
-    position: absolute;
-    left: 700px;
-    top: 175px;
-}
-
-@media (max-width:500px) {
-    body{
-        background-color: purple;
-    }
-    
-}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif}
+img{max-width:100%;height:auto}
+nav{display:flex;flex-wrap:wrap;gap:15px;justify-content:space-between;align-items:center;padding:8px 4%}
+nav>img{width:80px}
+.menu{display:flex;align-items:center;gap:20px;box-shadow:0 .5px 2px 2px wheat;padding:10px 16px;border-radius:40px;flex-wrap:wrap;justify-content:center}
+.menu hr{height:24px;margin:0}
+.house{width:40px;border-radius:20%}
+a{text-decoration:none;font-size:16px;color:#000}
+button{border-radius:50%;height:44px;width:44px;cursor:pointer}
+.pink{background:#fd3f5f;border:none}
+.fil button{width:130px;border-radius:40px;height:50px;font-size:16px;background:#fff;border:1px solid #c0bebe}
+.web{display:flex;gap:12px}
+.web button{background:#f8f3eb;border:1px solid #f8f3eb}
+h3{color:#5a5656}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px;padding:0 4%}
+.left{margin:0;padding:0}
+.right iframe{width:100%;height:600px;border:0;position:sticky;top:10px}
+.con1,.con2,.con3,.con4{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:20px}
+.card1{position:relative;line-height:1.3}
+.card1>img:first-child{width:100%;aspect-ratio:1;object-fit:cover;border-radius:20px}
+.per{position:absolute;top:8px;left:8px;width:50px;border-radius:50%;box-shadow:0 0 0 3px #fff}
+.card1 .btn,.card1 [class^="btn"]{position:absolute;top:8px;right:8px;width:38px;height:38px;color:#fd3758;background:#000;border:none}
+.card1 [class^="btn"]:active{background:#fd3758;color:#000}
+.card1 h2,.card1 h3{margin:4px 0}
+@media(max-width:900px){.layout{grid-template-columns:1fr}.right iframe{height:350px;position:static}}
