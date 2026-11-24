@@ -161,3 +161,10 @@ button{
     left: 700px;
     top: 175px;
 }
+
+@media (max-width:500px) {
+    body{
+        background-color: purple;
+    }
+    
+}
